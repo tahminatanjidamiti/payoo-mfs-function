@@ -25,7 +25,7 @@ document.getElementById('btn-cash-out')
    const div = document.createElement('div');
    div.classList.add('bg-yellow-300');
    div.innerHTML = `
-   <h4 class ="text-2xl font-bold">Cash Out<h4>
+   <h4 class ="text-2xl font-bold">Cash Out</h4>
    <p>${cashOut} withdraw. New Balance ${newBalance}</p>
    `
 
